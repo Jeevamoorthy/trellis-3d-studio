@@ -6,7 +6,6 @@ __pycache__/
 
 # Virtual Environments
 .venv/
-*/.venv/
 env/
 venv/
 ENV/
@@ -19,7 +18,6 @@ ENV/
 *.onnx
 *.ckpt
 weights/
-*/weights/
 *.weights
 
 # Local Caches & Temp
@@ -29,8 +27,8 @@ build/
 dist/
 scratch/
 *.log
-TRELLIS-for-windows/
 
 # Keep sample models and assets
 !sample_models/*.glb
 !assets/*
+
