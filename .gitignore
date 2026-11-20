@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Virtual Environments
+.venv/
+*/.venv/
+env/
+venv/
+ENV/
+
+# Model Checkpoints & Large Weights
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.onnx
+*.ckpt
+weights/
+*/weights/
+*.weights
+
+# Local Caches & Temp
+cache/
+.cache/
+build/
+dist/
+scratch/
+*.log
+TRELLIS-for-windows/
+
+# Keep sample models and assets
+!sample_models/*.glb
+!assets/*
